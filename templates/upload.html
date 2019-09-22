@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="../static/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Luckiest+Guy&display=swap" rel="stylesheet">
+	</head>
+   <body>
+	   <img src="https://sdtimes.com/wp-content/uploads/2018/02/golang.sh_-490x490.png">	
+	   <div class="container">
+	      <div class="web_intro">
+		      <h1>GO Assignment Grader</h2>
+		      <p>Welcome to the GO autograder! To start, enter the file you want by clicking 'Upload File' and then click submit.</p>
+		      <p>Afterwards, you'll be redirected to another page with your score</p>
+		      <form action = "http://ec2-54-198-236-135.compute-1.amazonaws.com:5000/uploader" method = "POST" 
+			 enctype = "multipart/form-data">
+			 <input type = "file" name = "file" />
+			 <input type = "submit"/>
+		      </form>
+	      </div>
+	     </div>
+   </body>
+</html>

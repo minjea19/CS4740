@@ -1,0 +1,39 @@
+body{
+	font-family: 'Luckiest Guy', cursive;
+	padding: 0;
+	margin: 0;
+}
+
+
+.container{
+	width: 100vw;
+	height: 100vh;
+	background-color: #f2f2f2;
+	display: flex;
+	justify-content: center;
+}
+
+.web_intro{
+	display: block;
+	text-align: center;
+	position: absolute;
+	z-index: 2;
+	margin-top: 15%;
+}
+
+img{
+	height: 90px;
+	position: absolute;
+	z-index: 1;
+	margin-left: 64%;
+	margin-top: 15%;
+}
+
+
+h1{
+	color: #3c5975;
+}
+
+p{
+	color: #99abbd;
+}
